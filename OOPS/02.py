@@ -7,6 +7,6 @@ class Car:
         self.model = inputmodel
 
     def display(self):
-        print("The name of and car brand is :",self.brand ,"and the name of the model is :",self.model)
+        print("The name of the car brand is :",self.brand ,"and the name of the model is :",self.model)
 car1=Car("Toyota","Corolla")
 car1.display()
